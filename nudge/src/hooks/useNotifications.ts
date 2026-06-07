@@ -19,7 +19,7 @@ export function useNotifications() {
       icon: `/companion-${companion}.png`,
       badge: "/logo-nudge.png",
       tag: "nudge-reminder",
-      renotify: true,
+      // renotify: true,
     });
     setTimeout(() => n.close(), 10000);
     return n;
