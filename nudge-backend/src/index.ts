@@ -3,9 +3,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { rateLimit } from "express-rate-limit";
 import { authRouter } from "./routes/auth.js";
-import { remindersRouter } from "./routes/reminders.ts";
-import { circleRouter } from "./routes/circle.ts";
-import { startScheduler } from "./services/scheduler.ts";
+import { remindersRouter } from "./routes/reminders";
+import { circleRouter } from "./routes/circle";
+import { startScheduler } from "./services/scheduler";
 
 dotenv.config();
 
